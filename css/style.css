@@ -172,15 +172,30 @@ background-color:black;
 color: aliceblue;
 text-align: end;
 }
-@media screen and (max-width: 480xp){
+@media screen and (max-width: 480px){
   main{
-    background-color: rgb(211, 15, 15);
-    display: grid;
-    grid-template-columns: 60% 40%;
-    grid-template-rows: 1 fr 1 fr;
-    grid-template-areas:
-    "articulos ." 
-    "novedades novedades";
-    }
-
+      background-color: gray;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 2fr 1fr;
+      grid-template-areas:
+      "articulos"
+      "videos" 
+      "novedades";
+      }
+      .articulos{
+      grid-area: articulos;
+      display: flex;
+      
+      }
+      .articulos div{
+      text-align: center;
+      }
+      .videos{
+      grid-area: videos;
+      }
+      .novedades{
+      background-color: aliceblue;
+      grid-area: novedades;
+      }
 }
