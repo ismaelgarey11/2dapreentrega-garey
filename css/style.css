@@ -172,7 +172,7 @@ background-color:black;
 color: aliceblue;
 text-align: end;
 }
-@media screen and (max-widht: 480xp){
+@media screen and (max-width: 480xp){
   main{
     background-color: rgb(211, 15, 15);
     display: grid;
