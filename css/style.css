@@ -173,29 +173,29 @@ color: aliceblue;
 text-align: end;
 }
 @media screen and (max-width: 480px){
-  main{
-      background-color: gray;
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-template-rows: 1fr 2fr 1fr;
-      grid-template-areas:
-      "articulos"
-      "videos" 
-      "novedades";
-      }
-      .articulos{
-      grid-area: articulos;
-      display: flex;
-      
-      }
-      .articulos div{
-      text-align: center;
-      }
-      .videos{
-      grid-area: videos;
-      }
-      .novedades{
-      background-color: aliceblue;
-      grid-area: novedades;
-      }
-}
+    main{
+        background-color: gray;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 2fr 1fr;
+        grid-template-areas:
+        "articulos"
+        "videos" 
+        "novedades";
+        }
+        .articulos{
+        grid-area: articulos;
+        display: flex;
+        
+        }
+        .articulos div{
+        text-align: center;
+        }
+        .videos{
+        grid-area: videos;
+        }
+        .novedades{
+        background-color: aliceblue;
+        grid-area: novedades;
+        }
+  }
