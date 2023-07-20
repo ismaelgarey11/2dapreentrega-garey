@@ -59,6 +59,25 @@ grid-area: videos;
 background-color: aliceblue;
 grid-area: novedades;
 }
+article{    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 10 px;
+  align-items: center;
+  
+  }
+  .producto{
+      text-align: center;
+      width: max-content;
+  }
+  .producto:hover{
+      margin: 10px 10px;
+      border-radius: 10px;
+      box-shadow:0 10px 10px rgb(0, 0, 10) ;
+  }
+  img{
+      width: 200px;
+      height: 200px;
+  }
 .galeria{
 display: grid;
 grid-template-columns: auto;
@@ -222,4 +241,8 @@ text-align: end;
             background-color: #f5f5f5;
             border-radius: 5px;
           }
+          article{
+            display: flex;
+            flex-direction: column;
+        }
   }
